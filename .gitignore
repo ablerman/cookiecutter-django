@@ -41,3 +41,11 @@ celerybeat-schedule.db
 .coverage
 .tox
 .cache
+
+# ignore the vagrant dir
+.vagrant
+
+#ignore the virtual env
+venv
+
+
