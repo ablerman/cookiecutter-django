@@ -63,3 +63,9 @@ tests/.hitch
 
 # MailHog binary
 mailhog
+
+# ignore the vagrant dir
+.vagrant
+
+#ignore the virtual env
+venv

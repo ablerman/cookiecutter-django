@@ -1,5 +1,8 @@
+## runme like this:
+## xargs -a <(awk '/^\s*[^#]/' "requirements.apt") -r -- sudo apt-get install
+
 ##basic build dependencies of various Django apps for Ubuntu 14.04
-#build-essential metapackage install: make, gcc, g++, 
+#build-essential metapackage install: make, gcc, g++,
 build-essential
 #required to translate
 gettext
@@ -11,6 +14,10 @@ zlib1g-dev
 
 ##Postgresql and psycopg2 dependencies
 libpq-dev
+
+##MySql dependencies
+libmysqlclient-dev
+mysql-server
 
 ##Pillow dependencies
 libtiff4-dev
